@@ -1,0 +1,1018 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600;700&family=Heebo:wght@300;400;600;700&family=Noto+Sans+TC:wght@400;600;700;800&display=swap');
+
+
+
+@font-face {
+    font-family: "Race Sport";
+    src: url("../public/font/Race Sport.ttf") format('truetype');
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: 'Heebo', 'Noto Sans TC', sans-serif;
+}
+
+/* logo */
+.navbar {
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    z-index: 2000;
+    background-color: #1E1E1E;
+}
+
+
+
+.navbar-dark .navbar-brand {
+    font-family: "Race Sport";
+    font-size: 36px;
+    color: #52FF00;
+    font-weight: 400;
+
+    word-wrap: break-word;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: #52FF00;
+}
+
+
+.ul-margin {
+    margin-left: 50px;
+}
+
+.search {
+    width: 300px;
+    position: relative;
+}
+
+.icon {
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+.icons {
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+.search-position {
+    position: absolute;
+    color: grey;
+    top: 4px;
+    right: 75px;
+    font-size: 20px;
+}
+
+.search-input {
+    background: rgb(255, 255, 255, 0.24);
+    border: 0;
+    border-radius: 50px;
+    margin-right: 60px;
+}
+
+.navbar .nav-item .dropdown-menu {
+    display: none;
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+}
+
+a.nav-link.dropdown-toggle::after {
+    display: none;
+}
+
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .change-hover {
+    color: white;
+}
+
+a:hover .chinese {
+    display: none;
+}
+
+.change-hover-after {
+    display: none;
+}
+
+.nav-link p {
+    color: #FF5c00;
+}
+
+a:hover span+p {
+    display: block;
+}
+
+.dropdown-item:hover {
+    color: #ff5c00 !important;
+    background-color: #212529 !important;
+}
+
+
+
+.navbar-toggler-icon {
+    color: #FFF;
+}
+
+.shop {
+    color: white;
+}
+
+.member {
+    color: white;
+}
+
+.bi-person:hover {
+    color: #ff5c00;
+}
+
+.bi-cart2:hover {
+    color: #ff5c00;
+}
+
+.shop:hover {
+    color: white;
+}
+
+.member:hover {
+    color: white;
+}
+
+/* nav結束 */
+/* 首頁開始 */
+.banner {
+    width: 100vw;
+    height: 100vh;
+    background: url("../public/images/banner.JPG") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.shop-now {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 350px;
+    background-color: rgb(0, 0, 0, 0.5);
+
+}
+
+.shop-now-h1 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+    font-weight: bolder;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 123.5%;
+}
+
+.shop-now-p {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4.3976054191589355px 10.994013786315918px rgba(0, 0, 0, 0.44);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 123.5%;
+}
+
+.shop-now-button {
+    height: 50px;
+    width: 250px;
+    border: 0px;
+    border-radius: 50px;
+}
+
+.shop-now-a {
+    width: 200px;
+    border-radius: 60px;
+    font-weight: bolder;
+}
+
+.carousel-position {
+    width: 1440px;
+    height: 713px;
+}
+
+/* .carousel-margin{
+  margin-left: 11.5%;
+} */
+.signup-invite {
+    height: 91px;
+}
+
+.design {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.text-1 {
+    color: #FFF;
+    text-align: end;
+    font-family: "Race Sport";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-2 {
+    color: #FFF;
+    text-align: end;
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 1rem;
+}
+
+.text-3 {
+    padding-top: 15px;
+    color: #FFF;
+
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.shop-section {
+    width: 1366px;
+    height: 615px;
+}
+
+.equipment {
+    color: #FFF;
+    text-align: center;
+    font-size: 26.66px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.btn-orange {
+    background-color: #FF5C00;
+}
+
+.btn-orange:hover {
+    background-color: #FF5C00;
+    color: white;
+}
+
+.customize-section {
+    color: #FFF;
+    text-align: center;
+
+    font-size: 26.66px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.customize-text {
+    background: linear-gradient(90deg, rgba(18, 214, 223, 1) 0%, rgba(247, 15, 255, 1) 100%);
+    background-clip: text;
+    font-family: "Race Sport";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 45px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.customize-p {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.canonnpro-text {
+    font-family: "Race Sport";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, #EA5719 0%, #F49A06 106.97%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.canonnpro-p {
+    width: 516px;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* 首頁結束 */
+/* about開始 */
+.img-about {
+    width: 711px;
+    height: 400px;
+}
+
+
+
+
+
+.about-title {
+    font-family: 'Anton', sans-serif;
+    color: #FFF;
+    text-shadow: 0 7px 7px rgba(0, 0, 0, 0.42);
+    margin-right: 50%;
+    margin-left: -10%;
+    font-size: 133px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 10px;
+    white-space: nowrap;
+}
+
+.about-text {
+    margin-left: 15%;
+    color: #FFF;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.217px;
+}
+
+.about-service {
+    color: #FF5C00;
+    font-size: 54.239px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.712px;
+}
+
+.hori-line {
+    height: 5px;
+    width: 500px;
+    background-color: #FF5C00;
+    margin-top: -1%;
+}
+
+.GEAR {
+    color: white;
+    font-size: 92px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4.63px;
+    word-wrap: break-word;
+}
+
+.rect-gear {
+    background-color: #FF5C00;
+    width: 200px;
+    height: 50px;
+    margin-top: -10%;
+    margin-left: -1%;
+}
+
+.TEAM {
+    color: white;
+    font-size: 92px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4.63px;
+    word-wrap: break-word;
+}
+
+.rect-team {
+    background-color: #FF5C00;
+    width: 220px;
+    height: 50px;
+    margin-top: -10%;
+    z-index: -1;
+}
+
+.customize {
+    color: white;
+    font-size: 87px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4.63px;
+    word-wrap: break-word;
+}
+
+.rect-customize {
+    background-color: #FF5C00;
+    width: 400px;
+    height: 50px;
+    margin-top: -10%;
+}
+
+/* about結束 */
+/* product開始 */
+.new-product {
+    height: 2600px;
+    background: url('../public/images/product_bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-position: top;
+    z-index: -100;
+
+}
+
+.product-text {
+    text-align: center;
+}
+
+.product-text-line {
+    background-color: #FF5C00;
+    width: 200px;
+    height: 5px;
+    text-align: center;
+    margin-top: -3%;
+}
+
+.img-position {
+    height: 400px;
+    object-fit: cover;
+}
+
+.slider-position {
+    position: relative;
+    height: 700px;
+}
+
+#btnPrev,
+#btnNext {
+    width: 60px;
+    height: 60px;
+    color: white;
+    /* background-image: url("../images/icon/prev.png"); */
+    font-size: 60px;
+    line-height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+}
+
+#btnPrev {
+    left: 15px;
+}
+
+#btnNext {
+
+    right: 5px;
+}
+
+.left {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    transition: 1.5s;
+}
+
+.slider2-position {
+    position: relative;
+    height: 700px;
+}
+
+#secbtnPrev,
+#secbtnNext {
+    width: 60px;
+    height: 60px;
+    color: white;
+    /* background-image: url("../images/icon/prev.png"); */
+    font-size: 60px;
+    line-height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    cursor: pointer;
+}
+
+#secbtnPrev {
+    left: 15px;
+}
+
+#secbtnNext {
+    right: 5px;
+}
+
+.sec_left {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    transition: 1.5s;
+}
+
+.bg-product {
+    background-color: black;
+    border: 0;
+    position: relative;
+    margin: 0;
+}
+
+
+
+.btn-opacity {
+    background-color: rgb(0, 0, 0, 0.8);
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0;
+}
+
+.all-product-text-line {
+    background-color: #FF5C00;
+    width: 150px;
+    height: 5px;
+    text-align: center;
+
+    margin-bottom: 1rem;
+}
+
+.body-product-text-line {
+    background-color: #FF5C00;
+    width: 220px;
+    height: 5px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.body-height {
+    height: 600px;
+}
+
+.card-title-body {
+    border-bottom: 5px solid #FF5C00;
+    width: 160px;
+    color: #FFF;
+    text-align: center;
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.card-title-text {
+    color: #FFF;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+}
+
+.card-title-btn {
+    color: #FFF;
+    text-align: center;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 30px */
+}
+
+.btn-outline-light:hover {
+    background-color: transparent;
+}
+
+.stick {
+    margin-top: 40%;
+}
+
+/* product結束 */
+/* shop_cannon開始 */
+.second-nav {
+    background-color: #5D5D5D;
+    height: 50px;
+
+}
+
+.second-nav-gap {
+    background-color: #FF5C00;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(65% 0, 100% 0, 35% 100%, 0% 100%);
+}
+
+.top-menu-ul {
+    padding: 1%;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.top-menu-li {
+    display: flex;
+}
+
+.top-menu-li>a {
+    text-decoration: none;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+
+
+.quit {
+    padding: 50px;
+    height: 600px;
+    width: 400px;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+.card-shop {
+    border-radius: 0;
+    background-color: black;
+}
+
+.hori-line-shop {
+    height: 5px;
+    width: 300px;
+    background-color: #FF5C00;
+    margin-top: -1%;
+}
+
+.text-h1 {
+    color: #FF5C00;
+}
+
+.flex-size {
+    width: 80px;
+}
+
+.add-to-cart {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product-intorduct {
+    color: white;
+    font-family: Anton;
+    font-size: 54.239px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.712px;
+}
+
+.hori-line-intorduct {
+    height: 5px;
+    width: 400px;
+    background-color: #FF5C00;
+    margin-top: -1%;
+}
+
+.ract {
+    height: 595px;
+    width: 1058px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.slider-onlineshop-cannon {
+    position: relative;
+    height: 530px;
+}
+
+#cannonbtnPrev {
+    width: 30px;
+    height: 30px;
+    /* background-image: url("../images/icon/prev.png"); */
+    font-size: 30px;
+    background-color: white;
+    line-height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 15px;
+}
+
+#cannonbtnNext {
+    width: 30px;
+    height: 30px;
+    /* background-image: url("../images/icon/next.png"); */
+    font-size: 30px;
+    background-color: white;
+    line-height: 28px;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    right: 5px;
+}
+
+.cannon_left {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    transition: 1.5s;
+}
+
+.cannon-position {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* onlineshop_cannon結束 */
+/* onlineshop_glove開始 */
+.hori-line-glove {
+    height: 5px;
+    width: 220px;
+    background-color: #FF5C00;
+    margin-top: -1%;
+}
+
+.money-box {
+    width: 150px;
+    height: 50px;
+}
+
+.color-box {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.color-button {
+    width: 90px;
+    height: 90px;
+}
+
+.btn-check:checked+.btn-light {
+    box-shadow: 0 0 0 0.25rem rgba(255, 94, 0);
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 94, 0);
+}
+
+.size-box {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* onlineshop_glove結束 */
+/* onlineshop_dagger開始 */
+.text-dagger {
+    color: #52FF00;
+}
+
+/* onlineshop_dagger結束 */
+/* onlineshop_jersey開始 */
+.hori-line-jersey {
+    height: 5px;
+    width: 250px;
+    background-color: #FF5C00;
+    margin-top: -1%;
+}
+
+.box-gray {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #C8C7C7;
+    background-color: grey;
+    overflow: hidden;
+    margin-right: 10%;
+}
+
+.box-black {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #C8C7C7;
+    background-color: black;
+    overflow: hidden;
+    margin-right: 10%;
+}
+
+.box-red {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #C8C7C7;
+    background-color: red;
+    overflow: hidden;
+    margin-right: 10%;
+}
+
+.box-navy {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #C8C7C7;
+    background-color: #001854;
+    overflow: hidden;
+    margin-right: 10%;
+}
+
+.box-white {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #C8C7C7;
+    background-color: white;
+    overflow: hidden;
+    margin-right: 10%;
+}
+
+.margin-jersey {
+    margin-top: 10%;
+}
+
+
+
+
+/* customize開始 */
+.customize_banner {
+    position: relative;
+}
+
+.customize_banner p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 120px;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.80);
+    text-shadow: 4px 6px 9.5px rgba(0, 0, 0, 0.69);
+}
+
+.customize_banner p>span {
+    color: #FF5C00;
+}
+
+.text-customize-header {
+    color: #FF5C00;
+    text-align: center;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 70px 0px;
+}
+
+.text-customize-title {
+    color: #FFF;
+
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.circle {
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    background-color: #FF5C00;
+}
+
+.rectangle {
+    height: 80px;
+    width: 3px;
+    background-color: #FF5C00;
+    margin-left: 4px;
+}
+
+
+
+.customize-button {
+
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* customize結束 */
+/*contact 開始*/
+.contact-title {
+    font-size: 24px;
+    border-bottom: 1px solid #ff5c00;
+    text-align-last: right;
+
+}
+
+/*contact 結束*/
+/*footer 開始*/
+footer {
+    width: 100vw;
+    height: 50px;
+    background: white;
+}
+
+/*footer 結束*/
+
+/*anima use*/
+.ins-link,
+.ins-link:hover {
+    color: #000;
+}
+
+/* 圖片陰影動畫效果 */
+.card-boxshadow {
+    transform: scaleX(1);
+    transition: all 0.6s;
+}
+
+.card-boxshadow:hover {
+    transform: scaleX(1.05);
+    box-shadow: 4px 4px 7px rgba(100, 83, 83, 0.7), -4px -4px 7px rgba(100, 83, 83, 0.7), 4px -4px 7px rgba(100, 83, 83, 0.7), -4px 4px 7px rgba(100, 83, 83, 0.7);
+    padding: 0px;
+    z-index: 1;
+}
+
+.btn-orange {
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #FFF !important;
+    outline: 2px solid #FF5C00;
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color .5s;
+    border: 0px;
+}
+
+.btn-orange:hover {
+    color: #FF5C00 !important;
+}
+
+.btn-orange:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 200%;
+    height: 100%;
+    background-color: #fff;
+    transform: scaleX(0) skewX(35deg);
+    transform-origin: left;
+    z-index: -1;
+    transition: transform .5s;
+    border: 0px;
+}
+
+.btn-orange:hover:before {
+    transform: scaleX(1) skewX(35deg) !important;
+}
